@@ -16,7 +16,7 @@
     #header {
         width: 100%;
         height: auto;
-        background-color: #8BC67C;
+        background-color: #77C45D;
         color: white;
         border-radius: 0px 0px 50px 50px;
     }
@@ -32,19 +32,70 @@
     }
     
 
-    #konten h6 {
-        margin-top: 20px;
+    #konten .mitra h6 {
+        /* margin-top: 20px; */
         margin-bottom: 20px;
         font-weight: bold;
         font-size: 15px;
-        padding: 10px;
-        color: #8BC67C;
+        padding-left: 10px;
     }
 
     #konten p {
       font-size: 11px;
       color: #3f573a;
       margin-left: 0.5rem ;
+    }
+
+    #konten .nav-item{
+      margin-top: 20px;
+      width: auto;
+      height: auto;
+      font-size: 11px;
+    }
+
+    #konten .nav-pills {
+      margin-left: 25px;
+    }
+
+    .nav-link {
+      color: #3f573a;
+    }
+    
+    #konten .pembeli .numbers {
+      width: 20px;
+      height: auto;
+    }
+
+    #konten .pembeli h5 {
+      font-size: 12px ;
+      font-weight: bold;
+    }
+
+    #konten .pembeli h6 {
+      font-size: 10px ;
+      color: #3f573a;
+    }
+
+    #konten .pembeli .img-syarat-1 {
+      width: 210px;
+      height: auto;
+    }
+
+    #konten .pembeli .img-syarat {
+      width: 110px;
+      height: auto;
+    }
+
+    .syarat-2, .syarat-4, .syarat-5{
+      margin-top: 29px;
+    }
+
+    .syarat-3 {
+      margin-top: 22px;
+    }
+
+    .syarat-6 {
+      margin-top: 20px;
     }
 
     .img-numbers {
