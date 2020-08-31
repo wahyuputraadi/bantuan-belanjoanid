@@ -1,0 +1,85 @@
+@media (max-width: 992px) { 
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url(./font/Montserrat-Bold.ttf);
+      }
+
+      body {
+        font-family: Montserrat;
+        font-size: 16px;
+        color: black;
+        overflow-x: hidden;
+        /* margin-bottom: 300px; */
+      }
+
+    #header {
+        width: 100%;
+        height: auto;
+        background-color: #8BC67C;
+        color: white;
+        border-radius: 0px 0px 50px 50px;
+    }
+ 
+    #header img {
+        width: 200px;
+        height: auto;
+    }
+    
+    
+    #header p {
+        font-size: 14px;
+    }
+    
+
+    #konten h6 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        color: #8BC67C;
+    }
+
+    #konten p {
+      font-size: 11px;
+      color: #3f573a;
+      margin-left: 0.5rem ;
+    }
+
+    .img-numbers {
+        width: 30px;
+        height: 30px;
+        margin-right: 1rem;
+    }
+
+    .card-body {
+        color: #3f573a;
+        margin-left: 4rem ;
+        font-size: 11px;
+    }
+
+    #clossing {
+      margin-top: 15px;
+      width: 100%;
+      height: auto;
+      background-color: #8BC67C;
+      color: white;
+    }
+
+    #clossing img {
+      height: auto;
+      width: 130px;
+    }
+
+    #clossing p {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+  
+  
+    
+    
+
+ }
